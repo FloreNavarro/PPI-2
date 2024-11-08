@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeluqueriaCanina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <img src="img/Captura de pantalla (1194).png" top:30 >
+    </head>
+<body>
+ <!--header-->
+ <header>
+     <a href="#" class="logo"><i class="bx bx-home"></i>UNICA</a>
+
+    <ul class="navlist"> 
+        <li> <a href="#" class="active">Inicio</a></li>
+        <li><a href="#slider">Servicios</a></li>
+        <li> <a href="#Reservas" >Reservas</a></li>
+        <li><a href="Noticias.html">Noticias</a></li>
+        <li> <a href="contacto.html">Contacto</a></li>
+       
+    </ul>
+    
+
+    <!--<div class="nav-icons" >
+        <a href="#"></a><i class="bx bx-search"></i>
+
+        
+        <a href=""><i class="bx bx-cart"></i></a>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+
+    </div>-->
+    
+    
+ </header>
+ 
+ <!--Home-->
+  <section class="home" id="home" >
+      <div class="home-text">
+          <h1>Peluqueria  Canina
+        <span>Los mejores</span>  <b>Servicios y 
+        </b>Productos</h1>
+          
+          <!--<p>Aqui una muestra de los trabajos realizados, el antes y despues de tus mascotas</p>-->
+    <!--<a href="#" class="btn">Reserva tu Turno  <i class="bx bxs-right-arrow"></i></a>-->
+      </div>
+  </section>
+ <!-- slider -->
+    <section>
+        <div class="slider-container" id="slider"></div>
+        <div class="slider">
+     <!-- Contenido del slider -->
+        
+    <span style="--i:1"><img src="img/Captura de pantalla (1215).png" alt=""></span>
+    <span style="--i:2"><img src="img/Captura de pantalla (1216).png" alt=""></span>
+    <span style="--i:3"><img src="img/Captura de pantalla (1211).png" alt=""></span>
+    <span style="--i:4"><img src="img/Captura de pantalla (1212).png" alt=""></span>
+    <span style="--i:5"><img src="img/Captura de pantalla (1209).png" alt=""></span>
+    <span style="--i:6"><img src="img/Captura de pantalla (1197).png" alt=""></span>
+    <span style="--i:7"><img src="img/Captura de pantalla (1196).png" alt=""></span>
+    <span style="--i:8"><img src="img/Captura de pantalla (1189).png" alt=""></span>
+         </div>
+        </div>
+        
+    </section>
+    
+    <!--<a href="#" class="btn">Reserva tu Turno <i class="bx bxs-right-arrow"></i></a>-->
+    <!-- Sección de Reserva de Turno -->
+   <section id="Reservas">
+    <form action="procesar_reserva.php"  method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="celular">Celular:</label>
+        <input type="text" name="celular" required>
+        
+        <label for="consulta">Consulta:</label>
+        <textarea id="consulta" name="consulta" required></textarea>
+    
+        <label for="dia_reserva">Día de Reserva:</label>
+        <input type="date" id="dia_reserva" name="dia_reserva" required>
+    
+        <button type="submit" name="Registro">Registrar</button>
+    </form>
+     </section>
+    
+
+        
+    </div>
+</section>
+
+  <!-- servicios -->
+  <section class="servicios" id="servicios">
+
+    <div class="middle-text">
+
+    </div>
+  </section>
+
+ <!-- scroll -->
+       <a href="#" class="scroll">
+           <i class="bx bx-up-arrow-alt"></i>
+       </a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<!-- contacto -->
+ <section class="contacto" id="contacto">
+    <div class="contacto-content">
+        <div class="contacto-text">
+           <h2> Encontranos:</h2>
+            <p>
+
+            </p>
+            <div class="social">
+                  <a href="#" class="clr"><i class="bx bxl-instagram-alt"></i></a>
+                  <a href="#" ><i class="bx bxl-facebook"></i></a>
+                  <a href="#" ><i class="bx bxl-google"></i></a>
+            </div>
+        </div>
+    
+
+           <div class="detalles">
+              <div class="main-d">
+                <a href="#" class="bx bxs-location-plus">3 de febrero 1930.LH</a>
+              </div>
+              <div class="main-d">
+                <a href="#" class="bx bx-mobile-alt">261837315</a>
+              </div>
+            </div>
+    </div>
+</section>
+
+</body>
+</html>
