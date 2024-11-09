@@ -362,10 +362,10 @@ p {
 }
  /*carrito*/
 
- /* Globales *
+ /* Globales
 *::after,
 *::before,
-*{
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -390,6 +390,9 @@ body{
 
 img{
     max-width: 100%;
+    
+   
+
 }
 
 /* Header */
